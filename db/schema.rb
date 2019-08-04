@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2) do
     t.text "network"
     t.text "day"
     t.integer "rating"
+    t.text "season"
   end
 
 end
