@@ -7,5 +7,5 @@ class Show < ActiveRecord::Base
     Show.where('rating = ?', highest_rating)
   end
 
-  
+
 end
